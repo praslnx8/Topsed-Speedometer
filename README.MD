@@ -1,5 +1,8 @@
-Just a slim version this is.
+![Topsed](https://github.com/praslnx8/Topsed-Speedometer/raw/main/app/src/main/res/mipmap-xhdpi/ic_launcher.png) 
+Codebase of Android Speedometer app Topsed
+https://play.google.com/store/apps/details?id=com.topsed.race
 
-TODO:
-1. change the color based on custom color change rather than argb values
-2. Make the scale to be dynamic gap instead of 10
+
+![Screen1](https://play-lh.googleusercontent.com/eefhwAYJsvoY5VdFMX5iKj4wHDVPie93RPQ2x1s97H19JSO72wPcMp3iE43uY7EhMK0=w526-h296-rw)
+![Screen2](https://play-lh.googleusercontent.com/L4zvouCFpSxo7mg4C86kICFi-KqycrXQINASgoKtnLbA5lmiX3ypX5PhRpyrgUhQjOg=w526-h296-rw)
+

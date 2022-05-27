@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Units-->
+    <string-array name="units">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="unit_values">
+        <item>@string/km_value</item>
+        <item>@string/miles_value</item>
+    </string-array>
+    <string name="km_value" translatable="false">km</string>
+    <string name="miles_value" translatable="false">miles</string>
+
+
+    <!--Theme-->
+    <string-array name="themes">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>@string/auto_value</item>
+        <item>@string/light_value</item>
+        <item>@string/dark_value</item>
+    </string-array>
+    <string name="auto_value" translatable="false">auto</string>
+    <string name="light_value" translatable="false">light</string>
+    <string name="dark_value" translatable="false">dark</string>
+</resources>

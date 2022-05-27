@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_map"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/map"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_analytics"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_analytics_24"
+        android:title="@string/stats"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_rank"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_leaderboard_24"
+        android:title="@string/rank"
+        app:showAsAction="withText" />
+</menu>

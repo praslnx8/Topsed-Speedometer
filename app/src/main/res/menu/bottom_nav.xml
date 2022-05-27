@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_dashboard_24"
+        android:title="@string/dashboard"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_my_drives"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="@string/my_rides"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/action_settings"
+        app:showAsAction="withText" />
+</menu>

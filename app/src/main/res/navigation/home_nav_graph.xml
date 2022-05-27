@@ -1,0 +1,24 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph.xml"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.bike.race.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_my_drives"
+        android:name="com.bike.race.ui.mydrive.MyDrivesFragment"
+        android:label="My Drives"
+        tools:layout="@layout/fragment_my_drives" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.bike.race.ui.settings.MySettingsFragment"
+        android:label="Settings" />
+
+</navigation>

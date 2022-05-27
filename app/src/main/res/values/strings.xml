@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name" translatable="false">Speedometer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="top_speed">Top Speed</string>
+    <string name="avg_speed">Average Speed</string>
+    <string name="total_time">Total Time</string>
+    <string name="total_distance">Total Distance</string>
+    <string name="total">Total</string>
+    <string name="average">Average</string>
+    <string name="not_yet_started_the_game">Your recorded ride will be shown here</string>
+    <string name="no_of_stops">Stops</string>
+    <string name="idle_time">Idle Time</string>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+    <string name="my_rides">My Rides</string>
+    <string name="ride_report">Ride Details</string>
+    <string name="grant_permission_title">Grant Permissions</string>
+    <string name="bg_permission_message">To show the speed provide Location permission</string>
+    <string name="need_your_bg_location_permission">App needs location permission to show your speed</string>
+    <string name="we_will_not_store_any_of_your_data_and_adhering_to_our_privacy_agreement">App will not record your location when you stop the app.</string>
+    <string name="all_allow">Allow</string>
+    <string name="welcome_to_app">Welcome to Topsed</string>
+    <string name="welcome_caption">Speedometer and Driving Insights</string>
+    <string name="view_all_btn"><u>View All</u></string>
+    <string name="dashboard">Dashboard</string>
+    <string name="start_stop_button">start stop button</string>
+    <string name="cancel">Cancel</string>
+    <string name="map">Map</string>
+    <string name="stats">Stats</string>
+    <string name="stop_ride">Stop Ride</string>
+    <string name="stop">Stop</string>
+    <string name="no">No</string>
+    <string name="delete_race_confirmation">Delete Ride?</string>
+    <string name="delete">Delete</string>
+    <string name="location_permission">Location permission</string>
+    <string name="grant_access">Grant Access</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_n_conditions">Terms and Conditions</string>
+    <string name="splash_continue">By continuing, you agree to Topsed\'s</string>
+    <string name="splash_terms_of_service">Terms and Conditions</string>
+    <string name="splash_and">and</string>
+    <string name="splash_privacy_policy">Privacy Policy</string>
+    <string name="waiting_for_gps_signal_d" translatable="false">Waiting for GPS Signal %1$d&#65130;</string>
+    <string name="lets_ride">Continue</string>
+    <string name="logo">Logo</string>
+    <string name="empty">Empty</string>
+    <string name="start_place">start place</string>
+    <string name="end_place">end place</string>
+    <string name="rate_popup_title">Rate this App?</string>
+    <string name="rate_popup_message">Would you mind taking a moment to rate this app? It wont take more than a minute. Thank you for your support!</string>
+    <string name="rate_popup_no">No, thanks</string>
+    <string name="rate_popup_later">Remind me later</string>
+    <string name="rate_popup_ok">Rate now</string>
+    <string name="map_type">map type</string>
+    <string name="others">Others</string>
+    <string name="pause_ride">Pause ride</string>
+    <string name="pause">Pause</string>
+    <string name="overall_time">Overall Time</string>
+    <string name="pause_time">Pause Time</string>
+    <string name="total_rides">Total Rides</string>
+    <string name="top">Top</string>
+    <string name="avg">Average</string>
+    <string name="rank">Rank</string>
+    <string name="rank_is_available_for_longer_rides">Rank is available only for long rides</string>
+
+    <!-- Non translatable -->
+    <string name="ok" translatable="false">OK</string>
+    <string name="share_app" translatable="false">Check out this speedometer app https://play.google.com/store/apps/details?id=com.topsed.race</string>
+    <string name="app_link" translatable="false">https://play.google.com/store/apps/details?id=com.topsed.race</string>
+
+    <!-- Transition ids Start    -->
+    <string name="transition_trip_detail" translatable="false">trip_detail</string>
+    <string name="compare_ride">Compare Ride</string>
+    <string name="change">Change</string>
+    <string name="name_this_ride">Name this Ride</string>
+    <string name="unnamed">(Unnamed)</string>
+    <!-- Transition ids Ends    -->
+</resources>

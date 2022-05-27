@@ -1,0 +1,36 @@
+@startuml
+
+class LocationProvider {
+    subscribe(locationCallback: (Location) -> Unit)
+}
+
+class DriveService {
+    LocationProvider locationProvider
+    DriveRepository driveRepository
+    registerCallback(dashboardDataCallback: (DashboardData), driveFinishedCallback: (Long))
+    startDrive()
+    stopDrive()
+    getDashboardData(): DashboardData
+}
+
+class DriveBackgroundService {
+
+}
+
+class CurrentDrive {
+    pingData(locationTime, lat, lon, speed)
+    getAsDrive(): Drive?
+}
+
+class DrivePathBuilder {
+}
+
+
+CurrentDrive *-- DrivePathBuilder
+DriveService *-- LocationProvider
+DriveService *-- CurrentDrive
+DriveBackgroundService *-- DriveService
+
+note right of DriveBackgroundService: Android background service
+
+@enduml

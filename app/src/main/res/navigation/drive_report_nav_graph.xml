@@ -1,0 +1,25 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph.xml"
+    app:startDestination="@id/nav_map">
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.bike.race.ui.driveReport.DriveMapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_drive_map_view" />
+
+    <fragment
+        android:id="@+id/nav_analytics"
+        android:name="com.bike.race.ui.driveReport.DriveAnalyticsFragment"
+        android:label="Analytics"
+        tools:layout="@layout/fragment_drive_analytics" />
+
+    <fragment
+        android:id="@+id/nav_rank"
+        android:name="com.bike.race.ui.driveReport.DriveRankFragment"
+        android:label="Rank"
+        tools:layout="@layout/fragment_drive_rank" />
+
+</navigation>

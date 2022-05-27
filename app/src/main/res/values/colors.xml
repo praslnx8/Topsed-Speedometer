@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#128C7E</color>
+    <color name="primaryDark">#FFFFFF</color>
+    <color name="secondaryText">#4f5b62</color>
+    <color name="buttonText">#FFFFFF</color>
+    <color name="iconsChecked">@color/primary</color>
+    <color name="icons">#4f5b62</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#FEFEFE</color>
+    <color name="alternateBackground">#000000</color>
+    <color name="contentBackground">#D5D5D5</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="arcFinishedColor">@color/primary</color>
+    <color name="arcUnfinishedColor">#4E4E4E</color>
+
+    <color name="startGreen">#4CAF50</color>
+    <color name="pauseOrange">#FF9800</color>
+    <color name="stopRed">#F44336</color>
+    <color name="negativeColor">#F44336</color>
+    <color name="positiveColor">#4CAF50</color>
+
+    <color name="alert">#F44336</color>
+
+    <!--For map polyline-->
+    <color name="mapPolylineBlue">#4FBBFD</color>
+    <color name="mapPolylineRed">#F44336</color>
+
+    <color name="polylineSpeedHigh">#33B2FF</color>
+    <color name="polylineSpeedMedium">#FA9F00</color>
+    <color name="polylineSpeedLow">#F82600</color>
+</resources>

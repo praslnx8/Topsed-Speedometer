@@ -1,4 +1,5 @@
 ![Topsed](https://github.com/praslnx8/Topsed-Speedometer/raw/main/app/src/main/res/mipmap-xhdpi/ic_launcher.png) 
+
 Codebase of Android Speedometer app Topsed
 https://play.google.com/store/apps/details?id=com.topsed.race
 

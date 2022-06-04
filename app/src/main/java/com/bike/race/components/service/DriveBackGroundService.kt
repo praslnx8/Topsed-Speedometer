@@ -12,6 +12,9 @@ import com.bike.race.utils.NotificationUtils
 import org.koin.android.ext.android.inject
 import java.util.concurrent.TimeUnit
 
+/**
+ * Background Service(ForeGround Service in Android Context) to listen to GPS Signal in the background and hold the Drive Status.
+ */
 class DriveBackGroundService : Service() {
 
     private val driveService: DriveService by inject()
@@ -19,6 +22,9 @@ class DriveBackGroundService : Service() {
     private val serviceMessenger =
         ServiceMessenger(::onCommandReceived)
 
+    /**
+     * This ensures locking Android to not go to sleep and it will help listening to GPS Signal even if the phone went to idle state.
+     */
     private val wakeLock by lazy {
         (getSystemService(Context.POWER_SERVICE) as PowerManager).newWakeLock(
             PARTIAL_WAKE_LOCK,

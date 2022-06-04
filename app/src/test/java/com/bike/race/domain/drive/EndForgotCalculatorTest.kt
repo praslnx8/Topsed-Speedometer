@@ -44,6 +44,10 @@ class EndForgotCalculatorTest {
             TimeUnit.SECONDS.toMillis(3),
             LocationPoint(12.922287, 80.207920)
         )
+        endForgotCalculator.addPoint(
+            TimeUnit.SECONDS.toMillis(4),
+            LocationPoint(12.922288, 80.207921)
+        )
 
         assertThat(endForgotCalculator.isForgot(1f)).isTrue()
     }
@@ -69,6 +73,6 @@ class EndForgotCalculatorTest {
             LocationPoint(12.928509, 80.201711)
         )
 
-        assertThat(endForgotCalculator.isForgot(1f)).isTrue()
+        assertThat(endForgotCalculator.isForgot(1f)).isFalse()
     }
 }

@@ -82,7 +82,7 @@ class LocationProvider : LocationListener, GnssStatus.Callback() {
             return false
         }
 
-        if (location.accuracy <= 0 || location.accuracy > 40) {
+        if (location.accuracy <= 0 || location.accuracy > 20) {
             return false
         }
         return true

@@ -6,6 +6,10 @@ import com.bike.race.utils.toLatLng
 import org.koin.core.context.GlobalContext
 import java.util.concurrent.TimeUnit
 
+/**
+ * This is created to avoid including data points from GPS in case if the user forgot to end the drive
+ * after reaching the destination and being idle for a long time.
+ */
 class EndForgotCalculator {
 
     private val sphericalUtil by lazy {
@@ -32,7 +36,7 @@ class EndForgotCalculator {
         val locationPoint3 = locationPointList.getOrNull(2)
         val locationPoint4 = locationPointList.getOrNull(3)
 
-        return speed <= 0.1f && isDiffSmall(locationPoint1, locationPoint2) &&
+        return speed <= 1f && isDiffSmall(locationPoint1, locationPoint2) &&
                 isDiffSmall(locationPoint1, locationPoint3) &&
                 isDiffSmall(locationPoint1, locationPoint4) &&
                 isDiffSmall(locationPoint2, locationPoint3) &&
